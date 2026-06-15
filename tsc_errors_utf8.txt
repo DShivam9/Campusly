@@ -1,0 +1,14 @@
+﻿src/App.tsx(1,1): error TS6133: 'useEffect' is declared but its value is never read.
+src/App.tsx(3,10): error TS6133: 'motion' is declared but its value is never read.
+src/App.tsx(122,58): error TS2322: Type '{ onGetStarted: () => void | Promise<void>; onLearnMore: () => void | Promise<void>; }' is not assignable to type 'IntrinsicAttributes'.
+  Property 'onGetStarted' does not exist on type 'IntrinsicAttributes'.
+src/components/layout/AppLayout.tsx(106,23): error TS2322: Type 'string' is not assignable to type 'never'.
+src/components/screens/Admin.tsx(32,44): error TS6133: 'refetchEvents' is declared but its value is never read.
+src/components/screens/Attendance.tsx(38,72): error TS6133: 'refetchStudents' is declared but its value is never read.
+src/components/screens/Dashboard.tsx(27,48): error TS2339: Property 'fetchNotifications' does not exist on type 'typeof import("C:/projects/campuss/src/lib/api")'.
+src/components/screens/Dashboard.tsx(60,32): error TS2339: Property 'notifications' does not exist on type '{}'.
+src/components/screens/EventCalendar.tsx(8,3): error TS6133: 'ChevronLeft' is declared but its value is never read.
+src/components/screens/EventCalendar.tsx(9,3): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/components/screens/Events.tsx(279,7): error TS6133: 'categoryColorsModal' is declared but its value is never read.
+src/components/screens/Profile.tsx(3,3): error TS6133: 'User' is declared but its value is never read.
+src/components/screens/Profile.tsx(10,3): error TS6133: 'Globe' is declared but its value is never read.

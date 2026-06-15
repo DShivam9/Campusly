@@ -1,0 +1,34 @@
+src/routes/courses.ts(54,16): error TS2322: Type 'string | string[]' is not assignable to type 'string | StringFilter<"Enrollment"> | undefined'.
+  Type 'string[]' is not assignable to type 'string | StringFilter<"Enrollment"> | undefined'.
+src/routes/courses.ts(60,45): error TS2551: Property 'student' does not exist on type '{ id: string; studentId: string; courseId: string; }'. Did you mean 'studentId'?
+src/routes/courses.ts(95,49): error TS2322: Type 'string | string[]' is not assignable to type 'string'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/courses.ts(103,57): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/events.ts(89,34): error TS2322: Type 'string | string[]' is not assignable to type 'string'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/events.ts(101,16): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/events.ts(105,38): error TS2339: Property '_count' does not exist on type '{ id: string; title: string; description: string | null; venue: string | null; startsAt: Date; endsAt: Date | null; category: string | null; maxAttendees: number | null; organizerId: string | null; registrationOpen: boolean; }'.
+src/routes/events.ts(110,53): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/events.ts(121,58): error TS2322: Type 'string | string[]' is not assignable to type 'string | StringFilter<"EventRegistration"> | undefined'.
+  Type 'string[]' is not assignable to type 'string | StringFilter<"EventRegistration"> | undefined'.
+src/routes/events.ts(122,42): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/marketplace.ts(86,75): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/marketplace.ts(97,16): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/marketplace.ts(110,75): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/marketplace.ts(120,55): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/notifications.ts(36,16): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/requests.ts(83,16): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
+src/routes/timetable.ts(12,9): error TS7034: Variable 'entries' implicitly has type 'any[]' in some locations where its type cannot be determined.
+src/routes/timetable.ts(42,21): error TS7005: Variable 'entries' implicitly has an 'any[]' type.
+src/routes/users.ts(91,41): error TS2322: Type 'string | string[]' is not assignable to type 'string | undefined'.
+  Type 'string[]' is not assignable to type 'string'.
